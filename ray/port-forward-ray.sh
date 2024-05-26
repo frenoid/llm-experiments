@@ -1,2 +1,2 @@
 #1/bin/sh
-kubectl  -n ray-cluster port-forward svc/ray-cluster-head-svc 10001:10001
+kubectl  -n ray-cluster port-forward svc/ray-cluster-head-svc 10001:10001 8001:8000
